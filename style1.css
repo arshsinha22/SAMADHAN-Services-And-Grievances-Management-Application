@@ -1,0 +1,270 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  height: 100vh;
+  display: flex;
+  overflow: hidden;
+  align-items: center;
+  justify-content: center;
+  background-color: white;
+  background-image: url("login-img-background.svg");
+}
+
+.inFormBackground {
+  margin: 0rem 2rem;
+}
+
+.inFormBackground,
+.inLoginForm {
+  width: 20rem;
+  height: 30rem;
+  max-width: 320px;
+  position: relative;
+}
+
+.circle {
+  width: 10rem;
+  height: 10rem;
+  position: absolute;
+  border-radius: 50%;
+}
+
+.circle:first-child {
+  left: -20%;
+  top: -12%;
+  background: linear-gradient(orange, green);
+}
+
+.circle:nth-child(2) {
+  right: -22%;
+  bottom: -14%;
+  background: linear-gradient(164deg, orange, green);
+}
+
+.inLoginForm form {
+  top: 50%;
+  left: 50%;
+  width: 28rem;
+  height: 25rem;
+  max-width: 320px;
+  position: absolute;
+  padding: 50px 35px;
+  border-radius: 10px;
+  backdrop-filter: blur(5px);
+  transform: translate(-50%, -50%);
+  box-shadow: 0 0 40px rgba(8, 7, 16, 0.3);
+  border: 2px solid rgba(255, 255, 255, 0.1);
+  background-color: rgba(255, 255, 255, 0.5);
+}
+
+form * {
+  border: none;
+  outline: none;
+  color: navy;
+  letter-spacing: 0.5px;
+  font-family: "Poppins", sans-serif;
+}
+
+.title {
+  font-size: 32px;
+  font-weight: 500;
+  line-height: 22px;
+  text-align: center;
+}
+.inputGroup {
+  position: relative;
+  margin-top: 20px;
+}
+
+.inputGroup label {
+  display: block;
+  margin-top: 30px;
+  font-size: 16px;
+  font-weight: 500;
+}
+
+.inputGroup input {
+  width: 92%;
+  height: 50px;
+  display: block;
+  padding: 0 10px;
+  margin-top: 8px;
+  font-size: 14px;
+  font-weight: 300;
+  border-radius: 25px;
+  border-color: blue;
+  background-color: rgba(248, 245, 245, 1);
+}
+.inputWithIcon {
+  position: relative;
+  display: flex;
+  align-items: center;
+}
+
+.inputWithIcon i {
+  position: absolute;
+  left: 10px; /* Adjust the left position as needed */
+}
+
+.inputWithIcon input[type="email"],
+.inputWithIcon input[type="password"] {
+  width: 100%;
+  height: 50px;
+  padding-left: 30px; /* Ensure space for the icon */
+  font-size: 14px;
+  font-weight: 300;
+  border-radius: 25px;
+  border-color: blue;
+  background-color: rgba(248, 245, 245, 1);
+}
+
+.inputGroup.password-group input[type="password"] {
+  padding-right: 40px; /* Add space for the eye icon */
+}
+
+.inputGroup.password-group i {
+  right: 10px; /* Adjust the right position as needed */
+}
+
+::placeholder {
+  color: black;
+}
+.submitForm {
+  width: 100%;
+  z-index: 1;
+  margin-top: 30px;
+  color: green;
+  padding: 15px 0;
+  font-size: 18px;
+  font-weight: 600;
+  cursor: pointer;
+  overflow: hidden;
+  border-radius: 5px;
+  position: relative;
+  background: orange;
+}
+
+.submitForm::before {
+  content: "";
+  top: 0%;
+  left: -100%;
+  z-index: -1;
+  width: 100%;
+  height: 100%;
+  color: orange;
+  border-radius: 5px;
+  position: absolute;
+  transition: left 0.4s, color 0.4s;
+  background-color: green;
+}
+
+.submitForm:hover {
+  color: orange;
+}
+
+.submitForm:hover::before {
+  left: 0%;
+}
+.Signup{
+  color: #2a4dc0
+}
+
+.elementor-7 .elementor-element.elementor-element-f4b11d8:not(.elementor-motion-effects-element-type-background), .elementor-7 .elementor-element.elementor-element-f4b11d8 > .elementor-motion-effects-container > .elementor-motion-effects-layer {
+    background-color: transparent;
+    background-image: linear-gradient(170deg, var(--e-global-color-56afed9) 24%, var(--e-global-color-9fd9415) 100%);
+}
+.elementor-7 .elementor-element.elementor-element-f4b11d8 {
+    transition: background 0.3s, border 0.3s, border-radius 0.3s, box-shadow 0.3s;
+    padding: 80px 0px 80px 0px;
+}
+.elementor-element {
+    --widgets-spacing: 20px;
+}
+.elementor-element, .elementor-lightbox {
+    --swiper-theme-color: #000;
+    --swiper-navigation-size: 44px;
+    --swiper-pagination-bullet-size: 6px;
+    --swiper-pagination-bullet-horizontal-gap: 6px;
+}
+.elementor-section {
+    position: relative;
+}
+.elementor-element {
+    --flex-direction: initial;
+    --flex-wrap: initial;
+    --justify-content: initial;
+    --align-items: initial;
+    --align-content: initial;
+    --gap: initial;
+    --flex-basis: initial;
+    --flex-grow: initial;
+    --flex-shrink: initial;
+    --order: initial;
+    --align-self: initial;
+    flex-basis: var(--flex-basis);
+    flex-grow: var(--flex-grow);
+    flex-shrink: var(--flex-shrink);
+    order: var(--order);
+    align-self: var(--align-self);
+}
+.elementor *, .elementor :after, .elementor :before {
+    box-sizing: border-box;
+}
+.elementor .elementor-background-overlay, .elementor .elementor-background-slideshow {
+    height: 100%;
+    width: 100%;
+    top: 0;
+    left: 0;
+    position: absolute;
+}
+.elementor *, .elementor :after, .elementor :before {
+    box-sizing: border-box;
+}
+*, :after, :before {
+    box-sizing: inherit;
+}
+user agent stylesheet
+div {
+    display: block;
+}
+.elementor-element {
+    --widgets-spacing: 20px;
+}
+.elementor-element, .elementor-lightbox {
+    --swiper-theme-color: #000;
+    --swiper-navigation-size: 44px;
+    --swiper-pagination-bullet-size: 6px;
+    --swiper-pagination-bullet-horizontal-gap: 6px;
+}
+.elementor-element {
+    --flex-direction: initial;
+    --flex-wrap: initial;
+    --justify-content: initial;
+    --align-items: initial;
+    --align-content: initial;
+    --gap: initial;
+    --flex-basis: initial;
+    --flex-grow: initial;
+    --flex-shrink: initial;
+    --order: initial;
+    --align-self: initial;
+    flex-basis: var(--flex-basis);
+    flex-grow: var(--flex-grow);
+    flex-shrink: var(--flex-shrink);
+    order: var(--order);
+    align-self: var(--align-self);
+}
+
+footer{
+  width: 100%;
+  position: absolute;
+  bottom: 0;
+  color: orange;
+  background: linear-gradient(90deg,#ff9c15,#47915b) 0 0 no-repeat padding-box padding-box transparent;
+}
+footer img{
+  width: 250px;
+}

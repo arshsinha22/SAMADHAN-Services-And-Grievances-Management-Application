@@ -1,0 +1,267 @@
+<!DOCTYPE html>
+<html lang="en" class="hydrated">
+
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SAMADHAN Portal | AtalNagar </title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="images.png" type="image/png">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500;600;700;800&family=Poppins:wght@400;500;600;700&display=swap"
+        rel="stylesheet">
+
+</head>
+
+<body>
+    <header class="header" data-header>
+        <div class="overlay" data-overlay></div>
+        <div class="header-peak">
+            <a href="#main" class="skip-link">Skip to Main Content</a>
+            <ul class="nav">
+                <li class="nav-item">
+                    <span id="currentDateTime" class="nav-link link-light"></span>
+                </li>
+                <li class="nav-item">
+                    <button id="decfont" class="nav-link link-light px-2 font-inc font-btn" id="decfont"> A
+                        <sup>-</sup></button>
+                </li>
+                <li class="nav-item">
+                    <button id="resetFont" class="nav-link link-light px-2 font-inc active font-btn" id="resetFont"> A
+                    </button>
+                </li>
+                <li class="nav-item">
+                    <button id="incfont" class="nav-link link-light px-2 font-inc font-btn" id="incfont"> A
+                        <sup>+</sup></button>
+                </li>
+            </ul>
+
+            <ul class="nav-item">
+                <div class="language-dropdown">
+                    <button class="btn btn-tertiary dropdown-toggle" id="dropdown-text-mob" type="button"
+                        data-bs-toggle="dropdown" aria-expanded="false">
+                        <span class="language-text">English</span>
+                    </button>
+                    <ul class="dropdown-menu">
+                        <li class="dropdown-item">
+                            <a class="nav-link f16 link-light english-box language" href="/en.html">
+                                <div class="en-language active-language">
+                                    <span class="language-icon">A</span>
+                                    <span class="language-text">English</span>
+                                </div>
+                            </a>
+                        </li>
+                        <li class="dropdown-item">
+                            <a class="nav-link f16 language hindi-box link-light" href="/hi.html">
+                                <div class="hin-language">
+                                    <span class="language-icon">अ</span>
+                                    <span class="language-text">Hindi</span>
+                                </div>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+                </ui>
+            </ul>
+        </div>
+
+        <div class="header-top">
+            <div class="container">
+                <a href="https://navaraipuratalnagar.com/" class="emblem">
+                    <div class="icon-box">
+                        <img src="emblem.png">
+                    </div>
+
+                    <div class="wrapper">
+                        <p class="title">AtalNagar</p>
+
+                        <p class="city">Nawa Raipur</p>
+                    </div>
+
+                    <a href="#" class="logo">
+                        <img src="logo.png" alt="SAMADHAN logo">
+                    </a>
+
+                    <div class="header-btn-group">
+
+                        <button class="search-btn" aria-label="Search">
+                            <ion-icon name="search" role="img" class="md hydrated" aria-label="search"></ion-icon>
+                        </button>
+                        <button class="nav-open-btn" aria-label="Open Menu" data-nav-open-btn>
+                            <ion-icon name="menu-outline" role="img" class="md hydrated" aria-label="menu outline">
+                            </ion-icon>
+                        </button>
+
+
+                    </div>
+
+            </div>
+        </div>
+
+        <div class="header-bottom">
+            <div class="container">
+
+                <ul class="social-list">
+
+                    <li>
+                        <a href="#" class="social-link">
+                            <ion-icon name="logo-facebook"></ion-icon>
+                        </a>
+                    </li>
+
+                    <li>
+                        <a href="#" class="social-link">
+                            <ion-icon name="logo-twitter"></ion-icon>
+                        </a>
+                    </li>
+
+                    <li>
+                        <a href="#" class="social-link">
+                            <ion-icon name="logo-youtube"></ion-icon>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#" class="social-link">
+                            <ion-icon name="logo-instagram"></ion-icon>
+                        </a>
+                    </li>
+
+                </ul>
+
+                <nav class="navbar" data-navbar>
+
+                    <!-- <div class="navbar-top">
+        
+                    <a href="#" class="logo">
+                        <img src="logo-blue.svg" alt="Tourly logo">
+                    </a>
+        
+                    <button class="nav-close-btn" aria-label="Close Menu" data-nav-close-btn>
+                        <ion-icon name="close-outline"></ion-icon>
+                    </button>
+        
+                    </div> -->
+
+                    <ul class="navbar-list">
+
+                        <li>
+                            <a href="#home" class="navbar-link" data-nav-link>Home</a>
+                        </li>
+
+                        <li>
+                            <a href="#about" class="navbar-link" data-nav-link>About AtalNagar</a>
+                        </li>
+
+                        <li>
+                            <a href="#services" class="navbar-link" data-nav-link>Online Services</a>
+                        </li>
+
+                        <li>
+                            <a href="#reports" class="navbar-link" data-nav-link>Maps & Reports</a>
+                        </li>
+
+                        <li>
+                            <a href="#masterplan" class="navbar-link" data-nav-link>Master Plan 2031</a>
+                        </li>
+                        <li>
+                            <a href="#masterplan" class="navbar-link" data-nav-link>Help</a>
+                        </li>
+
+                    </ul>
+
+                </nav>
+
+                <button class="btn btn-primary"><a href="login.html">My Dashboard</a></button>
+
+                <button class="btn btn-secondary">Quick Pay</button>
+
+
+            </div>
+        </div>
+    
+        <div class="marquee-parent">
+            <div class="marquee-child">
+                <div class="marquee-content">
+                    <a href="#" target="_blank">Software Application for Monitoring And Disposal, Handling of services
+                        and grievances in Atal Nagar</a>
+                </div>
+            </div>
+        </div>
+        <div class="videoSlider">
+            <section class="video-section">
+                <div class="video-container">
+                    <!-- <div class="text-box">
+                        <h1>Welcome To SAMADHAN</h1>
+                    </div> -->
+                    <video width="100%" class="elVideo banner-video d-none d-sm-block" loop="loop" autoplay="" playsinline="" muted="" src="banner.mp4"></video>
+                </div>
+            </section>
+        </div>
+    </header>
+    <section>
+
+    <div class="content-container">
+<p> Lorem ipsum dolor sit amet consectetur adipisicing elit. At nobis beatae quas placeat, repellat veniam accusamus veritatis, facilis excepturi labore provident cum, perferendis unde mollitia ipsa eius totam. Beatae, ad!
+       </div>
+    </section>
+    <footer class="footer">
+            <img src="logo.png" alt="SAMADHAN logo">
+    </footer>
+
+
+    <script src="script.js"></script>
+    <script>
+        function updateDateTime() {
+            const currentDate = new Date();
+            const options = { weekday: 'long', year: 'numeric', month: 'long', day: 'numeric', hour: '2-digit', minute: '2-digit', hour12: false };
+            const formattedDate = currentDate.toLocaleDateString('en-US', options);
+
+            document.getElementById('currentDateTime').textContent = formattedDate;
+        }
+
+        // Call the function to update date and time immediately
+        updateDateTime();
+
+        // Update date and time every second
+        setInterval(updateDateTime, 1000);
+
+        // JavaScript to handle font size change
+        document.addEventListener("DOMContentLoaded", function () {
+            // Set initial font size to 16px (adjust as needed)
+            let currentFontSize = 16;
+
+            // Function to update the font size
+            function updateFontSize() {
+                document.body.style.fontSize = currentFontSize + "px";
+            }
+
+            // Button click event handlers
+            document.getElementById("decfont").addEventListener("click", function () {
+                currentFontSize -= 2; // Decrease font size by 2px (adjust as needed)
+                updateFontSize();
+            });
+
+            document.getElementById("incfont").addEventListener("click", function () {
+                currentFontSize += 2; // Increase font size by 2px (adjust as needed)
+                updateFontSize();
+            });
+
+            document.getElementById("resetFont").addEventListener("click", function () {
+                currentFontSize = 16; // Reset font size to 16px (adjust as needed)
+                updateFontSize();
+            });
+        });
+
+    </script>
+
+    <!-- 
+            - ionicon link
+            -->
+    <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+</body>
+
+</html>
